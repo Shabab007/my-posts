@@ -53,7 +53,7 @@ Typescript is also a perfect match with our new type-safe markdown processor - C
 
 First, a content source is defined, specifiying the name of the document type, the source where it is located along with the frontmatter fields and any additional computed fields that should be generated as part of the process.
 
-```ts:contentlayer.config.ts
+```ts
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
   filePathPattern: 'blog/**/*.mdx',
